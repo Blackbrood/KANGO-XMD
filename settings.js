@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~BvFQwTTL#SJ6uPnXuw6cqhEaaIlFSAkpZPZYKQpJnzNDBVIjfmeU' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -28,13 +28,13 @@ global.ownernumber = process.env.OWNER_NUMBER || '233509977126'
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['2348078112891', '2348022235091'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'King Caesar' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -42,7 +42,7 @@ global.packname = process.env.STICKER_PACK_NAME || "KANGO-XMD"
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Caesar" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
